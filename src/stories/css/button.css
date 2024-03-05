@@ -1,0 +1,153 @@
+
+
+/* btn
+
+{style} - {size} - btn
+
+style = primary, tonal, ountline 이 있습니다.
+size = lg, md, sm 이 있을 수 있습니다. (현재는 md, sm만 존재)
+
+btn의 상태는 모두 3개 있습니다.
+기본 / hover / active / disabled 
+
+*/
+
+
+
+
+
+
+
+
+/* primary */
+
+/* primary - md - btn */
+
+
+.primary-md-btn {
+    padding: 12px 20px;
+    background-color:var(--colorsTorderRed500);
+    border-radius: 8px;
+    border-style: none;
+    color: white;
+}
+
+.primary-md-btn:hover {
+    background-color: var(--colorsTorderRed800);
+    transition: 0.3s;
+}
+
+.primary-md-btn:active {
+    background-color: var(--colorsTorderRed800);
+    transition: 0.3s;
+}
+
+
+.primary-md-btn:disabled {
+    background-color: var(--colorsTorderGray50);
+}
+
+
+
+
+
+
+/* tonal */
+
+/* tonal - md - btn */
+
+.tonal-md-btn {
+    padding: 12px 20px;
+    background-color:var(--colorsTorderGray50);
+    border-radius: 8px;
+    border-style: none;
+    color: var(--colorsTorderGray500);
+}
+
+.tonal-md-btn:hover {
+    background-color: var(--colorsTorderGray100);
+    transition: 0.3s;
+}
+
+.tonal-md-btn:active {
+    background-color: var(--colorsTorderGray100);
+    transition: 0.3s;
+}
+
+.tonal-md-btn:disabled {
+    background-color: var(--colorsTorderGray50);
+    color: white;
+}
+
+
+
+/* tonal - sm - btn */
+
+.tonal-sm-btn {
+    padding: 8px 16px;
+    background-color:var(--colorsTorderGray50);
+    border-radius: 8px;
+    border-style: none;
+    color: var(--colorsTorderGray500);
+}
+
+.tonal-sm-btn:hover {
+    background-color: var(--colorsTorderGray100);
+    transition: 0.3s;
+}
+
+.tonal-sm-btn:active {
+    background-color: var(--colorsTorderGray100);
+    transition: 0.3s;
+}
+
+.tonal-sm-btn:disabled {
+    background-color: var(--colorsTorderGray50);
+    color: white;
+}
+
+
+
+
+
+
+
+
+/* outline */
+
+/* tonal - sm - btn */
+
+.outline-sm-btn {
+    padding: 8px 16px;
+    background-color:var(--colorsWhite);
+    border-radius: 8px;
+    border: 1px solid var(--colorsTorderGray100);
+    color: var(--colorsTorderGray600);
+}
+
+.outline-sm-btn:hover {
+    background-color: var(--colorsTorderGray50);
+    transition: 0.3s;
+}
+
+.outline-sm-btn:active {
+    background-color: var(--colorsTorderGray50);
+    transition: 0.3s;
+}
+
+.outline-sm-btn:disabled {
+    color: var(--colorsTorderGray100);
+    background-color: var(--colorsWhite);
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,66 @@
+* {padding: 0; margin: 0; box-sizing: border-box;}
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    min-width: 258px;
+    border-radius: 12px;
+    &__header {
+        display: flex;
+        align-items: center;
+    }
+    &__content {
+        height: calc(100% - 50px - 46px) /* 100% - 헤더 - 푸터 */
+    }
+    &__footer {
+        margin-top: auto;
+    }
+    &__title {
+        display: inline-block;
+        font-family: Pretendard;
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: -0.48px;
+    }
+    &__subtitle {
+        display: inline-block;
+        font-family: Pretendard;
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: -0.42px;
+        &::before {
+            content: '/';
+            padding-left: 4px;
+            padding-right: 4px;
+        }
+    }
+    &--primary {
+        background-color: #2a3241;
+        
+    }
+    &--primary &__title {
+        color: #ebecf4;
+    }
+    &--primary &__header {
+        padding: 16px;
+    }
+    &--primary &__footer {
+        background-color: #242b38;
+        padding: 12px 24px;
+        border-radius: 0 0 12px 12px;
+    }
+    &--secondary {
+        background-color: #fff;
+        border: 1px solid #ebecf4;
+    }
+    &--secondary &__title {
+        color: #323a49;
+    }
+    &--secondary &__subtitle {
+        color: #8E97AA
+    }
+    &--info {
+        background-color: #2179f5;
+    }
+}

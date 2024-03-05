@@ -1,0 +1,53 @@
+/* torder dashboard design system */
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/static/pretendard.css");
+@import url(tokens.css);
+@import url(typography.css);
+@import url(button.css);
+@import url(date-picker.css);
+@import url(tab.css);
+@import url(notice.css);
+@import url(error.css);
+@import url(popup.css);
+
+
+
+
+
+
+body {
+    padding: 40px 40px;
+}
+
+
+
+
+/* buttons */
+
+.btnContainer span {
+  display: block;
+  margin-bottom: 16px;
+}
+
+.btnContainer {
+    margin-bottom: 40px;
+  }
+
+
+
+
+/* select box */
+
+.blackContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 64px 120px;
+    background-color: var(--colorsTorderGray900);
+}
+
+
+.blackContainer_title {
+    color: white;
+    margin-bottom: 20px;
+}
+
+

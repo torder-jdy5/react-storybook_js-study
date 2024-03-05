@@ -1,0 +1,192 @@
+import { Meta, Unstyled } from "@storybook/blocks";
+
+<Meta title="Design System/Round" />
+
+<div className="header">
+  <Unstyled>
+    <p className="title">box radius</p>
+  </Unstyled>
+  <Unstyled>
+    <p className="title_gray">4 단위</p>
+  </Unstyled>
+</div>
+
+<div className="radius">
+  <div>
+    <svg className="po-ab" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+      <g clip-path="url(#clip0_635_3340)">
+        <rect x="2" y="2" width="148" height="68" rx="2" stroke="#F91515" stroke-width="4"/>
+      </g>
+      <defs>
+        <clipPath id="clip0_635_3340">
+          <rect width="36" height="36" fill="white"/>
+        </clipPath>
+      </defs>
+    </svg>
+    <div className="base">
+      4px
+    </div>
+  </div>
+
+  <div>
+    <svg className="po-ab" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+      <g clip-path="url(#clip0_635_3340)">
+        <rect x="2" y="2" width="148" height="68" rx="6" stroke="#F91515" stroke-width="4"/>
+      </g>
+      <defs>
+        <clipPath id="clip0_635_3340">
+          <rect width="36" height="36" fill="white"/>
+        </clipPath>
+      </defs>
+    </svg>
+    <div className="base br-8">
+      8px
+    </div>
+  </div>
+
+  <div>
+    <svg className="po-ab" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+      <g clip-path="url(#clip0_635_3340)">
+        <rect x="2" y="2" width="148" height="68" rx="10" stroke="#F91515" stroke-width="4"/>
+      </g>
+      <defs>
+        <clipPath id="clip0_635_3340">
+          <rect width="36" height="36" fill="white"/>
+        </clipPath>
+      </defs>
+    </svg>
+    <div className="base br-12">
+      12px
+    </div>
+  </div>
+
+  <div>
+    <svg className="po-ab" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+      <g clip-path="url(#clip0_635_3340)">
+        <rect x="2" y="2" width="148" height="68" rx="14" stroke="#F91515" stroke-width="4"/>
+      </g>
+      <defs>
+        <clipPath id="clip0_635_3340">
+          <rect width="36" height="36" fill="white"/>
+        </clipPath>
+      </defs>
+    </svg>
+    <div className="base br-16">
+      16px
+    </div>
+  </div>
+
+  <div>
+    <svg className="po-ab" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+      <g clip-path="url(#clip0_635_3340)">
+        <rect x="2" y="2" width="148" height="68" rx="22" stroke="#F91515" stroke-width="4"/>
+      </g>
+      <defs>
+        <clipPath id="clip0_635_3340">
+          <rect width="36" height="36" fill="white"/>
+        </clipPath>
+      </defs>
+    </svg>
+    <div className="base br-24">
+      24px
+    </div>
+  </div>
+
+  <div>
+    <svg className="po-ab" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none">
+      <g clip-path="url(#clip0_635_3340)">
+        <rect x="2" y="2" width="148" height="68" rx="34" stroke="#F91515" stroke-width="4"/>
+      </g>
+      <defs>
+        <clipPath id="clip0_635_3340">
+          <rect width="36" height="36" fill="white"/>
+        </clipPath>
+      </defs>
+    </svg>
+    <div className="base br-50-percent">
+      50%
+    </div>
+  </div>
+
+</div>
+
+<style>
+{`
+  .header {
+    min-width: 1080px;
+    display: flex;
+    padding: 32px 24px;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1 0 0;
+    align-self: stretch;
+  }
+  .title {
+    color: #333;
+    font-family: 'Pretendard';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 133.333% */
+    letter-spacing: -0.48px;
+    text-transform: uppercase;
+  }
+  .title_gray {
+    color: rgba(51, 51, 51, 0.80);
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1px;
+    opacity: 0.6;
+  }
+  .radius {
+    min-width: 1080px;
+    display: flex;
+    padding: 48px;
+    align-items: flex-start;
+    gap: 32px;
+    align-self: stretch;
+    background: #F9F9F9;
+  }
+  .base {
+    width: 152px;
+    height: 72px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #EAEAEA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #333;
+    text-align: center;
+
+    /* Label/Small (600) */
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px; /* 114.286% */
+  }
+  .po-ab {
+    position: absolute;
+  }
+  .br-8 {
+    border-radius: 8px;
+  }
+  .br-12 {
+    border-radius: 12px;
+  }
+  .br-16 {
+    border-radius: 16px;
+  }
+  .br-24 {
+    border-radius: 24px;
+  }
+  .br-50-percent {
+    border-radius: 36px;
+  }
+`}
+</style>

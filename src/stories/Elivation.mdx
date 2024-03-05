@@ -1,0 +1,239 @@
+import { Meta, Unstyled } from "@storybook/blocks";
+
+<Meta title="Design System/Elivation" />
+
+<div className="heading">
+  <Unstyled>
+    <p className="title">shadow : dark mode</p>
+  </Unstyled>
+</div>
+
+<div className="container">
+  <div className="frame_107">
+    <Unstyled>
+      <p className="label">lv 0</p>
+    </Unstyled>
+    <div className="base">
+    </div>
+    <div className="labe_box">
+      <Unstyled>
+        <p className="op_5">
+          none
+        </p>
+      </Unstyled>
+    </div>
+  </div>
+
+  <div className="frame_107">
+    <Unstyled>
+      <p className="label">lv 1</p>
+    </Unstyled>
+    <div className="base dark_lv_1">
+    </div>
+    <div className="labe_box">
+      <Unstyled>
+        <pre>
+          x : 0
+          y : 4
+          blur : 12
+          color : #000,  0.16(alpha)
+        </pre>
+      </Unstyled>
+    </div>
+  </div>
+
+  <div className="frame_107">
+    <Unstyled>
+      <p className="label">lv 2</p>
+    </Unstyled>
+    <div className="base dark_lv_2">
+    </div>
+    <div className="labe_box">
+      <Unstyled>
+        <pre>
+          x : 0
+          y : 8
+          blur : 16
+          color : #000,  0.24(alpha)
+        </pre>
+      </Unstyled>
+    </div>
+  </div>
+</div>
+
+<div className="heading">
+  <Unstyled>
+    <p className="title">shadow : light mode</p>
+  </Unstyled>
+</div>
+
+<div className="light_container">
+  <div className="frame_107">
+    <Unstyled>
+      <p className="light_label">lv 0</p>
+    </Unstyled>
+    <div className="base light_color">
+    </div>
+    <div className="light_labe_box">
+      <Unstyled>
+        <p className="op_5">
+          none
+        </p>
+      </Unstyled>
+    </div>
+  </div>
+
+  <div className="frame_107">
+    <Unstyled>
+      <p className="light_label">lv 1</p>
+    </Unstyled>
+    <div className="base light_color light_lv_1">
+    </div>
+    <div className="light_labe_box">
+      <Unstyled>
+        <pre>
+          x : 0
+          y : 4
+          blur : 12
+          color : #000,  0.05(alpha)
+        </pre>
+      </Unstyled>
+    </div>
+  </div>
+
+  <div className="frame_107">
+    <Unstyled>
+      <p className="light_label">lv 2</p>
+    </Unstyled>
+    <div className="base light_color light_lv_2">
+    </div>
+    <div className="light_labe_box">
+      <Unstyled>
+        <pre>
+          x : 0
+          y : 8
+          blur : 16
+          color : #000,  0.08(alpha)
+        </pre>
+      </Unstyled>
+    </div>
+  </div>
+</div>
+
+<style>
+{`
+  .heading {
+    display: flex;
+    padding: 24px;
+    align-items: flex-end;
+    gap: var(--spacing-spacing-2, 8px);
+    align-self: stretch;
+  }
+  .title {
+    color: #333;
+    font-family: 'Pretendard';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 133.333% */
+    letter-spacing: -0.48px;
+    text-transform: uppercase;
+  }
+  .container {
+    display: flex;
+    padding: 48px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 32px;
+    background: #202632;
+  }
+  .frame_107 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  .label {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 171.429% */
+  }
+  .base {
+    min-width: 260px;
+    max-width: 360px;
+    height: 72px;
+    border-radius: 12px;
+    background: var(--torder-gray-800, #323A49);
+  }
+  .labe_box {
+    height: 96px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 171.429% */
+  }
+  .op_5 {
+    opacity: 0.5;
+  }
+  .dark_lv_1 {
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.16);
+  }
+  .dark_lv_2 {
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.24);
+  }
+  .light_container {
+    display: flex;
+    padding: 48px;
+    justify-content: space-between;
+    align-items: center;
+    background: #F5F6FA;
+  }
+  .light_color {
+    border: 1px solid #F1F1F1;
+    background: #FFF;
+  }
+  .light_lv_1 {
+    border-radius: 12px;
+    border: 1px solid #F1F1F1;
+    background: #FFF;
+
+    /* shadow_lv_1 */
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.05);
+  }
+  .light_lv_2 {
+    border-radius: 12px;
+    border: 1px solid #F1F1F1;
+    background: #FFF;
+
+    /* shadow_lv_2 */
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.08);
+  }
+  .light_label {
+    color: #333;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 171.429% */
+  }
+  .light_labe_box {
+    height: 96px;
+    color: #333;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 171.429% */
+  }
+`}
+</style>

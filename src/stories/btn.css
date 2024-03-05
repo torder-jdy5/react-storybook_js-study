@@ -1,0 +1,97 @@
+.btn {
+  font-family: var(--typographyTitleNormal3BoldFontFamily);
+  border: 0;
+  border-radius: 8px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+
+.btn__primary {
+  color: white;
+  background-color: var(--colorsTorderRed500);
+
+  &:hover {
+    background-color: var(--colorsTorderRed800);
+  }
+  &:active{
+    background-color: var(--colorsTorderRed800);
+  }
+  &:disabled{
+    background-color: var(--colorsTorderGray50);
+  }
+
+}
+
+
+
+.btn__tonal {
+  color: var(--colorsTorderGray500);
+  background-color: var(--colorsTorderGray50);
+  &:hover {
+    background-color: var(--colorsTorderGray100);
+  }
+  &:active{
+    background-color: var(--colorsTorderGray100);
+  }
+  &:disabled{
+    color: white;
+    background-color: var(--colorsTorderGray50);
+  }
+}
+
+
+
+.btn__outline {
+  color: var(--colorsTorderGray500);
+  background-color: white;
+  box-shadow: 0 0 0 1px var(--colorsTorderGray100) inset;
+  &:hover {
+    background-color: var(--colorsTorderGray50);
+  }
+  &:active{
+    background-color: var(--colorsTorderGray50);
+  }
+  &:disabled{
+    color: var(--colorsTorderGray100);
+    background-color: white;
+  }
+}
+
+
+
+
+/** 버튼 사이즈 스타일 */
+
+
+
+/*
+.btn__lg {
+  font-size: 16px;
+  padding: 12px 24px;
+}
+*/
+
+
+.btn__md {
+  font-weight: var(--typographyTitleNormal3BoldFontWeight);
+  font-size: var(--typographyTitleNormal3BoldFontSize);
+  letter-spacing: var(--typographyTitleNormal3BoldLetterSpacing);
+  line-height: var(--typographyTitleNormal3BoldLineHeight);
+
+  padding: 12px 20px;
+}
+
+
+.btn__sm {
+  font-weight: var(--typographyTitleNormal1BoldFontWeight);
+  font-size: var(--typographyTitleNormal1BoldFontSize);
+  letter-spacing: var(--typographyTitleNormal1BoldLetterSpacing);
+  line-height: var(--typographyTitleNormal1BoldLineHeight);
+
+  padding: 8px 16px;
+}
+
+
+
+

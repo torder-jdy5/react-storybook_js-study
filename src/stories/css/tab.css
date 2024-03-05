@@ -1,0 +1,132 @@
+
+/* 
+
+{style} - tab
+
+style = line, fill 이 있습니다.
+
+tab의 상태는 모두 3개 있습니다.
+기본 / hover / active / disabled
+
+disabled = inactive 상태입니다.
+inactive 상태 css는 코드로만 있고, a 태그로 구현이 되어있지 않습니다
+
+*/
+
+
+
+/* tabContainer은 안봐도 됩니다 */
+.tabContainer {
+    margin: 60px 0px;
+    
+}
+
+.tabContainer_title{
+    display: block;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+/* line - tab */
+
+.line-tab {
+    display: flex;
+    height: 48px;
+    gap: 16px;
+}
+
+.line-tab-item {
+    text-decoration: none;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    color: var(--colorsTorderGray600);
+    padding-bottom: 8px;
+    border-bottom: 3px solid transparent;
+    cursor: pointer;
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 125% */
+    letter-spacing: -0.48px;
+
+    &:hover {
+        color: var(--colorsBlue500);
+        border-bottom: 3px solid var(--colorsBlue500);
+        transition: 0.5s;
+    }
+
+    &.active {
+        color: var(--colorsBlue500);
+        border-bottom: 3px solid var(--colorsBlue500);
+        transition: 0.5s;
+    }
+
+    /* inactive 상태 */
+    &:disabled{
+        color: var(--colorsTorderGray100);
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+/* fill - tab */
+
+.fill-tab {
+    display: flex;
+    gap: 8px;
+}
+
+
+.fill-tab-item {
+    text-decoration: none;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 12px;
+    color: var(--colorsTorderGray400);
+    background-color: var(--colorsTorderGray30);
+    border-radius: 8px;
+
+    &:hover {
+        color: white;
+        background-color: var(--colorsBlue500);
+        transition: 0.3s;
+    }
+
+    &:active {
+        color: white;
+        background-color: var(--colorsBlue500);
+        transition: 0.3s;
+    }
+
+    /* inactive 상태 */
+    &:disabled{
+        color: white;
+        background-color: var(--colorsTorderGray100);
+    }
+
+} 
+
+
+
+

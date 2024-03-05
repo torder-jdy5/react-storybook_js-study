@@ -1,0 +1,1760 @@
+@import url(https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/static/pretendard.css);
+.storybook-button {
+  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  border: 0;
+  border-radius: 3em;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1;
+}
+
+
+.storybook-button--primary {
+  color: white;
+  background-color: #1ea7fd;
+  &:hover {
+    background-color: #333;
+  }
+  &:active{
+    background-color: aqua;
+  }
+}
+.storybook-button--outline {
+  color: #333;
+  background-color: transparent;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
+}
+.storybook-button--tonal {
+  color: #333;
+  background-color: #c9c9c9;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
+}
+
+
+
+
+.storybook-button--small {
+  font-size: 12px;
+  padding: 10px 16px;
+}
+.storybook-button--medium {
+  font-size: 14px;
+  padding: 11px 20px;
+}
+.storybook-button--large {
+  font-size: 16px;
+  padding: 12px 24px;
+}
+
+.green {
+  background-color: var(--colorsGreen600);
+}
+/**
+ * Do not edit directly
+ * Generated on Fri, 22 Sep 2023 10:35:10 GMT
+ */
+
+:root {
+  --boxShadowDarkLv2: 0 8px 16px 0 rgba(0,0,0,0.24);
+  --boxShadowDarkLv1: 0 4px 12px 0 rgba(0,0,0,0.16);
+  --boxShadowLightLv2: 0 8px 16px 0 rgba(0,0,0,0.08);
+  --boxShadowLightLv1: 0 4px 12px 0 rgba(0,0,0,0.05);
+  --borderRadiusFull: 50%;
+  --borderRadius5: 24px;
+  --borderRadius4: 16px;
+  --borderRadius3: 12px;
+  --borderRadius2: 8px;
+  --borderRadius1: 4px;
+  --typographyParagraphExtraSmall1RegularLetterSpacing: -0.02em;
+  --typographyParagraphExtraSmall1RegularLineHeight: 16px;
+  --typographyParagraphExtraSmall1MediumLetterSpacing: -0.02em;
+  --typographyParagraphExtraSmall1MediumLineHeight: 16px;
+  --typographyParagraphSmall2RegularLetterSpacing: -0.03em;
+  --typographyParagraphSmall2RegularLineHeight: 22px;
+  --typographyParagraphSmall2MediumLetterSpacing: -0.03em;
+  --typographyParagraphSmall2MediumLineHeight: 20px;
+  --typographyParagraphSmall1RegularLetterSpacing: -0.02em;
+  --typographyParagraphSmall1RegularLineHeight: 20px;
+  --typographyParagraphSmall1MediumLetterSpacing: -0.02em;
+  --typographyParagraphSmall1MediumLineHeight: 20px;
+  --typographyParagraphNormal3RegularLetterSpacing: -0.03em;
+  --typographyParagraphNormal3RegularLineHeight: 24px;
+  --typographyParagraphNormal3MediumLetterSpacing: -0.03em;
+  --typographyParagraphNormal3MediumLineHeight: 24px;
+  --typographyParagraphNormal3SemiboldLetterSpacing: -0.03em;
+  --typographyParagraphNormal3SemiboldLineHeight: 24px;
+  --typographyParagraphNormal2RegularLetterSpacing: -0.03em;
+  --typographyParagraphNormal2RegularLineHeight: 24px;
+  --typographyParagraphNormal2MediumLetterSpacing: -0.03em;
+  --typographyParagraphNormal2MediumLineHeight: 24px;
+  --typographyParagraphNormal1RegularLetterSpacing: -0.03em;
+  --typographyParagraphNormal1RegularLineHeight: 22px;
+  --typographyParagraphNormal1MediumLetterSpacing: -0.03em;
+  --typographyParagraphNormal1MediumLineHeight: 22px;
+  --typographyTitleExtraSmall1BoldLetterSpacing: -0.02em;
+  --typographyTitleExtraSmall1BoldLineHeight: 12px;
+  --typographyTitleSmall2RegularLetterSpacing: -0.03em;
+  --typographyTitleSmall2RegularLineHeight: 16px;
+  --typographyTitleSmall2MediumLetterSpacing: -0.03em;
+  --typographyTitleSmall2MediumLineHeight: 16px;
+  --typographyTitleSmall2SemiboldLetterSpacing: -0.03em;
+  --typographyTitleSmall2SemiboldLineHeight: 16px;
+  --typographyTitleSmall2BoldLetterSpacing: -0.03em;
+  --typographyTitleSmall2BoldLineHeight: 16px;
+  --typographyTitleSmall1RegularLetterSpacing: -0.02em;
+  --typographyTitleSmall1RegularLineHeight: 14px;
+  --typographyTitleSmall1MediumLineHeight: 14px;
+  --typographyTitleSmall1MediumLetterSpacing: -0.02em;
+  --typographyTitleSmall1SemiboldLetterSpacing: -0.02em;
+  --typographyTitleSmall1SemiboldLineHeight: 14px;
+  --typographyTitleSmall1BoldLetterSpacing: -0.02em;
+  --typographyTitleSmall1BoldLineHeight: 14px;
+  --typographyTitleNormal3RegularLetterSpacing: -0.03em;
+  --typographyTitleNormal3RegularLineHeight: 20px;
+  --typographyTitleNormal3MediumLetterSpacing: -0.03em;
+  --typographyTitleNormal3MediumLineHeight: 20px;
+  --typographyTitleNormal3SemiboldLetterSpacing: -0.03em;
+  --typographyTitleNormal3SemiboldLineHeight: 20px;
+  --typographyTitleNormal3BoldLetterSpacing: -0.03em;
+  --typographyTitleNormal3BoldLineHeight: 20px;
+  --typographyTitleNormal2RegularLetterSpacing: -0.03em;
+  --typographyTitleNormal2RegularLineHeight: 20px;
+  --typographyTitleNormal2MediumLetterSpacing: -0.03em;
+  --typographyTitleNormal2MediumLineHeight: 20px;
+  --typographyTitleNormal2SemiboldLetterSpacing: -0.03em;
+  --typographyTitleNormal2SemiboldLineHeight: 20px;
+  --typographyTitleNormal2BoldLineHeight: 20px;
+  --typographyTitleNormal2BoldLetterSpacing: -0.03em;
+  --typographyTitleNormal1RegularLetterSpacing: -0.03em;
+  --typographyTitleNormal1RegularLineHeight: 18px;
+  --typographyTitleNormal1MediumLetterSpacing: -0.03em;
+  --typographyTitleNormal1MediumLineHeight: 18px;
+  --typographyTitleNormal1SemiboldLetterSpacing: -0.03em;
+  --typographyTitleNormal1SemiboldLineHeight: 18px;
+  --typographyTitleNormal1BoldLineHeight: 18px;
+  --typographyTitleNormal1BoldLetterSpacing: -0.03em;
+  --typographyTitleLarge5BoldLetterSpacing: -0.02em;
+  --typographyTitleLarge5BoldLineHeight: 32px;
+  --typographyTitleLarge4SemiboldLetterSpacing: -0.02em;
+  --typographyTitleLarge4SemiboldLineHeight: 32px;
+  --typographyTitleLarge4BoldLetterSpacing: -0.02em;
+  --typographyTitleLarge4BoldLineHeight: 32px;
+  --typographyTitleLarge3SemiboldLineHeight: 28px;
+  --typographyTitleLarge3SemiboldLetterSpacing: -0.02em;
+  --typographyTitleLarge3BoldLetterSpacing: -0.02em;
+  --typographyTitleLarge3BoldLineHeight: 28px;
+  --typographyTitleLarge2SemiboldLineHeight: 28px;
+  --typographyTitleLarge2SemiboldLetterSpacing: -0.02em;
+  --typographyTitleLarge2BoldLetterSpacing: -0.02em;
+  --typographyTitleLarge2BoldLineHeight: 28px;
+  --typographyTitleLarge1SemiboldLineHeight: 28px;
+  --typographyTitleLarge1SemiboldLetterSpacing: -0.02em;
+  --typographyTitleLarge1BoldLetterSpacing: -0.02em;
+  --typographyTitleLarge1BoldLineHeight: 28px;
+  --typographyTitleExtraLarge3SemiboldLetterSpacing: -0.02em;
+  --typographyTitleExtraLarge3SemiboldLineHeight: 40px;
+  --typographyTitleExtraLarge2BoldLineHeight: 40px;
+  --typographyTitleExtraLarge2BoldLetterSpacing: -0.02em;
+  --typographyTitleExtraLarge1BoldLetterSpacing: -0.02em;
+  --typographyTitleExtraLarge1BoldLineHeight: 40px;
+  --fontSizesExtraLarge3: 40px;
+  --fontSizesExtraLarge2: 36px;
+  --fontSizesExtraLarge1: 32px;
+  --fontSizesLarge5: 28px;
+  --fontSizesLarge4: 24px;
+  --fontSizesLarge3: 22px;
+  --fontSizesLarge2: 20px;
+  --fontSizesLarge1: 18px;
+  --fontSizesNormal3: 16px;
+  --fontSizesNormal2: 15px;
+  --fontSizesNormal1: 14px;
+  --fontSizesSmall2: 13px;
+  --fontSizesSmall1: 12px;
+  --fontSizesExtraSmall1: 10px;
+  --fontWeightsParagraphRegular: 400;
+  --fontWeightsParagraphSemibold: 600;
+  --fontWeightsParagraphMedium: 500;
+  --fontWeightsTitleRegular: 400;
+  --fontWeightsTitleMedium: 500;
+  --fontWeightsTitleSemibold: 600;
+  --fontWeightsTitleBold: 700;
+  --fontFamiliesParagraph: Pretendard;
+  --fontFamiliesTitle: Pretendard;
+  --colorsBlue900: #032049;
+  --colorsBlue800: #05367a;
+  --colorsBlue700: #084bab;
+  --colorsBlue600: #0a61dc;
+  --colorsBlue500: #2179f5;
+  --colorsBlue400: #4f95f7;
+  --colorsBlue300: #6da7f8;
+  --colorsBlue200: #9dc4fb;
+  --colorsBlue100: #cee2fd;
+  --colorsBlue50: #e7f0fe;
+  --colorsTeal900: #0b2528;
+  --colorsTeal800: #164950;
+  --colorsTeal700: #226e77;
+  --colorsTeal600: #2d939f;
+  --colorsTeal500: #38b8c7;
+  --colorsTeal400: #60c6d2;
+  --colorsTeal300: #88d4dd;
+  --colorsTeal200: #afe2e9;
+  --colorsTeal100: #cfeef2;
+  --colorsTeal50: #e7f6f8;
+  --colorsGreen900: #0b3222;
+  --colorsGreen800: #135339;
+  --colorsGreen700: #1c7d55;
+  --colorsGreen600: #249e6b;
+  --colorsGreen500: #2abb7f;
+  --colorsGreen400: #37d292;
+  --colorsGreen300: #58daa4;
+  --colorsGreen200: #97e8c6;
+  --colorsGreen100: #d5f6e8;
+  --colorsGreen50: #eafaf4;
+  --colorsMagenta900: #310216;
+  --colorsMagenta800: #6b052f;
+  --colorsMagenta700: #a60749;
+  --colorsMagenta600: #d70a5f;
+  --colorsMagenta500: #f52179;
+  --colorsMagenta400: #f7468f;
+  --colorsMagenta300: #f976ad;
+  --colorsMagenta200: #fba7ca;
+  --colorsMagenta100: #fdcee2;
+  --colorsMagenta50: #fee7f0;
+  --colorsYellow900: #281801;
+  --colorsYellow800: #5b3501;
+  --colorsYellow700: #bf7103;
+  --colorsYellow600: #e38603;
+  --colorsYellow500: #fc9e1a;
+  --colorsYellow400: #fdb045;
+  --colorsYellow300: #fdc577;
+  --colorsYellow200: #fedba9;
+  --colorsYellow100: #feeacd;
+  --colorsYellow50: #fff4e6;
+  --colorsPurple900: #190830;
+  --colorsPurple800: #31105B;
+  --colorsPurple700: #481886;
+  --colorsPurple600: #5F1FB2;
+  --colorsPurple500: #772BDA;
+  --colorsPurple400: #9256E1;
+  --colorsPurple300: #AE81E9;
+  --colorsPurple200: #CAADF0;
+  --colorsPurple100: #E6D8F8;
+  --colorsPurple50: #F1E9FB;
+  --colorsTorderBlack900: #181818;
+  --colorsTorderBlack800: #313131;
+  --colorsTorderBlack700: #494949;
+  --colorsTorderBlack600: #626262;
+  --colorsTorderBlack500: #7A7A7A;
+  --colorsTorderBlack400: #959595;
+  --colorsTorderBlack300: #AFAFAF;
+  --colorsTorderBlack200: #CACACA;
+  --colorsTorderBlack100: #E4E4E4;
+  --colorsTorderBlack50: #F3F3F3;
+  --colorsTorderGray900: #202632;
+  --colorsTorderGray860: #242B38;
+  --colorsTorderGray830: #2A3241;
+  --colorsTorderGray800: #323A49;
+  --colorsTorderGray700: #424C5E;
+  --colorsTorderGray600: #525E75;
+  --colorsTorderGray500: #606C85;
+  --colorsTorderGray400: #778197;
+  --colorsTorderGray300: #8E97AA;
+  --colorsTorderGray200: #ADB4C3;
+  --colorsTorderGray100: #CCD2DD;
+  --colorsTorderGray50: #EBECF4;
+  --colorsTorderGray30: #F5F6FA;
+  --colorsTorderRed900: #BF0000;
+  --colorsTorderRed800: #CC0009;
+  --colorsTorderRed700: #D90013;
+  --colorsTorderRed600: #EB0018;
+  --colorsTorderRed500: #F91515;
+  --colorsTorderRed400: #F53839;
+  --colorsTorderRed300: #EC6362;
+  --colorsTorderRed200: #F5908E;
+  --colorsTorderRed100: #FFC7CC;
+  --colorsTorderRed50: #FFE9EC;
+  --colorsWhite: #ffffff;
+  --colorsBlack: #000000;
+  --typographyParagraphExtraSmall1RegularFontSize: var(--fontSizesExtraSmall1);
+  --typographyParagraphExtraSmall1RegularFontWeight: 400;
+  --typographyParagraphExtraSmall1RegularFontFamily: var(--fontFamiliesParagraph);
+  --typographyParagraphExtraSmall1MediumFontSize: var(--fontSizesExtraSmall1);
+  --typographyParagraphExtraSmall1MediumFontWeight: 500;
+  --typographyParagraphExtraSmall1MediumFontFamily: var(--fontFamiliesParagraph);
+  --typographyParagraphSmall2RegularFontSize: var(--fontSizesSmall2);
+  --typographyParagraphSmall2RegularFontWeight: 400;
+  --typographyParagraphSmall2RegularFontFamily: var(--fontFamiliesParagraph);
+  --typographyParagraphSmall2MediumFontSize: var(--fontSizesSmall2);
+  --typographyParagraphSmall2MediumFontWeight: 500;
+  --typographyParagraphSmall2MediumFontFamily: var(--fontFamiliesParagraph);
+  --typographyParagraphSmall1RegularFontSize: var(--fontSizesSmall1);
+  --typographyParagraphSmall1RegularFontWeight: 400;
+  --typographyParagraphSmall1RegularFontFamily: var(--fontFamiliesParagraph);
+  --typographyParagraphSmall1MediumFontSize: var(--fontSizesSmall1);
+  --typographyParagraphSmall1MediumFontWeight: 500;
+  --typographyParagraphSmall1MediumFontFamily: var(--fontFamiliesParagraph);
+  --typographyParagraphNormal3RegularFontSize: var(--fontSizesNormal3);
+  --typographyParagraphNormal3RegularFontWeight: 400;
+  --typographyParagraphNormal3RegularFontFamily: var(--fontFamiliesParagraph);
+  --typographyParagraphNormal3MediumFontSize: var(--fontSizesNormal3);
+  --typographyParagraphNormal3MediumFontWeight: 500;
+  --typographyParagraphNormal3MediumFontFamily: var(--fontFamiliesParagraph);
+  --typographyParagraphNormal3SemiboldFontSize: var(--fontSizesNormal3);
+  --typographyParagraphNormal3SemiboldFontWeight: 600;
+  --typographyParagraphNormal3SemiboldFontFamily: var(--fontFamiliesParagraph);
+  --typographyParagraphNormal2RegularFontSize: var(--fontSizesNormal2);
+  --typographyParagraphNormal2RegularFontWeight: 400;
+  --typographyParagraphNormal2RegularFontFamily: var(--fontFamiliesParagraph);
+  --typographyParagraphNormal2MediumFontSize: var(--fontSizesNormal2);
+  --typographyParagraphNormal2MediumFontWeight: 500;
+  --typographyParagraphNormal2MediumFontFamily: var(--fontFamiliesParagraph);
+  --typographyParagraphNormal1RegularFontSize: var(--fontSizesNormal1);
+  --typographyParagraphNormal1RegularFontWeight: 400;
+  --typographyParagraphNormal1RegularFontFamily: var(--fontFamiliesParagraph);
+  --typographyParagraphNormal1MediumFontSize: var(--fontSizesNormal1);
+  --typographyParagraphNormal1MediumFontWeight: 500;
+  --typographyParagraphNormal1MediumFontFamily: var(--fontFamiliesParagraph);
+  --typographyTitleExtraSmall1BoldFontSize: var(--fontSizesExtraSmall1);
+  --typographyTitleExtraSmall1BoldFontWeight: 700;
+  --typographyTitleExtraSmall1BoldFontFamily: var(--fontFamiliesTitle);
+  --typographyTitleSmall2RegularFontSize: var(--fontSizesSmall2);
+  --typographyTitleSmall2RegularFontWeight: 400;
+  --typographyTitleSmall2RegularFontFamily: var(--fontFamiliesTitle);
+  --typographyTitleSmall2MediumFontSize: var(--fontSizesSmall2);
+  --typographyTitleSmall2MediumFontWeight: 500;
+  --typographyTitleSmall2MediumFontFamily: var(--fontFamiliesTitle);
+  --typographyTitleSmall2SemiboldFontSize: var(--fontSizesSmall2);
+  --typographyTitleSmall2SemiboldFontWeight: 600;
+  --typographyTitleSmall2SemiboldFontFamily: var(--fontFamiliesTitle);
+  --typographyTitleSmall2BoldFontSize: var(--fontSizesSmall2);
+  --typographyTitleSmall2BoldFontWeight: 700;
+  --typographyTitleSmall2BoldFontFamily: var(--fontFamiliesTitle);
+  --typographyTitleSmall1RegularFontSize: var(--fontSizesSmall1);
+  --typographyTitleSmall1RegularFontWeight: 400;
+  --typographyTitleSmall1RegularFontFamily: var(--fontFamiliesTitle);
+  --typographyTitleSmall1MediumFontSize: var(--fontSizesSmall1);
+  --typographyTitleSmall1MediumFontWeight: 500;
+  --typographyTitleSmall1MediumFontFamily: var(--fontFamiliesTitle);
+  --typographyTitleSmall1SemiboldFontSize: var(--fontSizesSmall1);
+  --typographyTitleSmall1SemiboldFontWeight: 600;
+  --typographyTitleSmall1SemiboldFontFamily: var(--fontFamiliesTitle);
+  --typographyTitleSmall1BoldFontSize: var(--fontSizesSmall1);
+  --typographyTitleSmall1BoldFontWeight: 700;
+  --typographyTitleSmall1BoldFontFamily: var(--fontFamiliesTitle);
+  --typographyTitleNormal3RegularFontSize: var(--fontSizesNormal3);
+  --typographyTitleNormal3RegularFontWeight: 400;
+  --typographyTitleNormal3RegularFontFamily: var(--fontFamiliesTitle);
+  --typographyTitleNormal3MediumFontSize: var(--fontSizesNormal3);
+  --typographyTitleNormal3MediumFontWeight: 500;
+  --typographyTitleNormal3MediumFontFamily: var(--fontFamiliesTitle);
+  --typographyTitleNormal3SemiboldFontSize: var(--fontSizesNormal3);
+  --typographyTitleNormal3SemiboldFontWeight: 600;
+  --typographyTitleNormal3SemiboldFontFamily: var(--fontFamiliesTitle);
+  --typographyTitleNormal3BoldFontSize: var(--fontSizesNormal3);
+  --typographyTitleNormal3BoldFontWeight: 700;
+  --typographyTitleNormal3BoldFontFamily: var(--fontFamiliesTitle);
+  --typographyTitleNormal2RegularFontSize: var(--fontSizesNormal2);
+  --typographyTitleNormal2RegularFontWeight: 400;
+  --typographyTitleNormal2RegularFontFamily: var(--fontFamiliesTitle);
+  --typographyTitleNormal2MediumFontSize: var(--fontSizesNormal2);
+  --typographyTitleNormal2MediumFontWeight: 500;
+  --typographyTitleNormal2MediumFontFamily: var(--fontFamiliesTitle);
+  --typographyTitleNormal2SemiboldFontSize: var(--fontSizesNormal2);
+  --typographyTitleNormal2SemiboldFontWeight: 600;
+  --typographyTitleNormal2SemiboldFontFamily: var(--fontFamiliesTitle);
+  --typographyTitleNormal2BoldFontSize: var(--fontSizesNormal2);
+  --typographyTitleNormal2BoldFontWeight: 700;
+  --typographyTitleNormal2BoldFontFamily: var(--fontFamiliesTitle);
+  --typographyTitleNormal1RegularFontSize: var(--fontSizesNormal1);
+  --typographyTitleNormal1RegularFontWeight: 400;
+  --typographyTitleNormal1RegularFontFamily: var(--fontFamiliesTitle);
+  --typographyTitleNormal1MediumFontSize: var(--fontSizesNormal1);
+  --typographyTitleNormal1MediumFontWeight: 500;
+  --typographyTitleNormal1MediumFontFamily: var(--fontFamiliesTitle);
+  --typographyTitleNormal1SemiboldFontSize: var(--fontSizesNormal1);
+  --typographyTitleNormal1SemiboldFontWeight: 600;
+  --typographyTitleNormal1SemiboldFontFamily: var(--fontFamiliesTitle);
+  --typographyTitleNormal1BoldFontSize: var(--fontSizesNormal1);
+  --typographyTitleNormal1BoldFontWeight: 700;
+  --typographyTitleNormal1BoldFontFamily: var(--fontFamiliesTitle);
+  --typographyTitleLarge5BoldFontSize: var(--fontSizesLarge5);
+  --typographyTitleLarge5BoldFontWeight: 700;
+  --typographyTitleLarge5BoldFontFamily: var(--fontFamiliesTitle);
+  --typographyTitleLarge4SemiboldFontSize: var(--fontSizesLarge4);
+  --typographyTitleLarge4SemiboldFontWeight: 600;
+  --typographyTitleLarge4SemiboldFontFamily: var(--fontFamiliesTitle);
+  --typographyTitleLarge4BoldFontSize: var(--fontSizesLarge4);
+  --typographyTitleLarge4BoldFontWeight: 700;
+  --typographyTitleLarge4BoldFontFamily: var(--fontFamiliesTitle);
+  --typographyTitleLarge3SemiboldFontSize: var(--fontSizesLarge3);
+  --typographyTitleLarge3SemiboldFontWeight: 600;
+  --typographyTitleLarge3SemiboldFontFamily: var(--fontFamiliesTitle);
+  --typographyTitleLarge3BoldFontSize: var(--fontSizesLarge3);
+  --typographyTitleLarge3BoldFontWeight: 700;
+  --typographyTitleLarge3BoldFontFamily: var(--fontFamiliesTitle);
+  --typographyTitleLarge2SemiboldFontSize: var(--fontSizesLarge2);
+  --typographyTitleLarge2SemiboldFontWeight: 600;
+  --typographyTitleLarge2SemiboldFontFamily: var(--fontFamiliesTitle);
+  --typographyTitleLarge2BoldFontSize: var(--fontSizesLarge2);
+  --typographyTitleLarge2BoldFontWeight: 700;
+  --typographyTitleLarge2BoldFontFamily: var(--fontFamiliesTitle);
+  --typographyTitleLarge1SemiboldFontSize: var(--fontSizesLarge1);
+  --typographyTitleLarge1SemiboldFontWeight: 600;
+  --typographyTitleLarge1SemiboldFontFamily: var(--fontFamiliesTitle);
+  --typographyTitleLarge1BoldFontSize: var(--fontSizesLarge1);
+  --typographyTitleLarge1BoldFontWeight: 700;
+  --typographyTitleLarge1BoldFontFamily: var(--fontFamiliesTitle);
+  --typographyTitleExtraLarge3SemiboldFontSize: var(--fontSizesExtraLarge3);
+  --typographyTitleExtraLarge3SemiboldFontWeight: 600;
+  --typographyTitleExtraLarge3SemiboldFontFamily: var(--fontFamiliesTitle);
+  --typographyTitleExtraLarge2BoldFontSize: var(--fontSizesExtraLarge2);
+  --typographyTitleExtraLarge2BoldFontWeight: 700;
+  --typographyTitleExtraLarge2BoldFontFamily: var(--fontFamiliesTitle);
+  --typographyTitleExtraLarge1BoldFontSize: var(--fontSizesExtraLarge1);
+  --typographyTitleExtraLarge1BoldFontWeight: 700;
+  --typographyTitleExtraLarge1BoldFontFamily: var(--fontFamiliesTitle);
+}
+
+
+
+/* paragraph */
+
+
+
+/* paragraph - normal - 3 */
+
+.p-normal-3-re {
+    font-family: var(--typographyParagraphNormal3RegularFontFamily);
+    font-weight: var(--typographyParagraphNormal3RegularFontWeight);
+    font-size: var(--typographyParagraphNormal3RegularFontSize);
+    letter-spacing: var(--typographyParagraphNormal3RegularLetterSpacing);
+    line-height: var(--typographyParagraphNormal3RegularLineHeight);
+  }
+  
+  .p-normal-3-me {
+      font-family: var(--typographyParagraphNormal3MediumFontFamily);
+      font-weight: var(--typographyParagraphNormal3MediumFontWeight);
+      font-size: var(--typographyParagraphNormal3MediumFontSize);
+      letter-spacing: var(--typographyParagraphNormal3MediumLetterSpacing);
+      line-height: var(--typographyParagraphNormal3MediumLineHeight);
+  }
+
+  .p-normal-3-se {
+    font-family: var(--typographyParagraphNormal3SemiboldFontFamily);
+    font-weight: var(--typographyParagraphNormal3SemiboldFontWeight);
+    font-size: var(--typographyParagraphNormal3SemiboldFontSize);
+    letter-spacing: var(--typographyParagraphNormal3SemiboldLetterSpacing);
+    line-height: var(--typographyParagraphNormal3SemiboldLineHeight);
+  }
+
+
+
+/* paragraph - normal - 2 */
+
+.p-normal-2-re {
+    font-family: var(--typographyParagraphNormal2RegularFontFamily);
+    font-weight: var(--typographyParagraphNormal2RegularFontWeight);
+    font-size: var(--typographyParagraphNormal2RegularFontSize);
+    letter-spacing: var(--typographyParagraphNormal2RegularLetterSpacing);
+    line-height: var(--typographyParagraphNormal2RegularLineHeight);
+  }
+  
+  .p-normal-2-me {
+      font-family: var(--typographyParagraphNormal2MediumFontFamily);
+      font-weight: var(--typographyParagraphNormal2MediumFontWeight);
+      font-size: var(--typographyParagraphNormal2MediumFontSize);
+      letter-spacing: var(--typographyParagraphNormal2MediumLetterSpacing);
+      line-height: var(--typographyParagraphNormal2MediumLineHeight);
+  }
+
+
+/* paragraph - normal - 1 */
+
+.p-normal-1-re {
+    font-family: var(--typographyParagraphNormal1RegularFontFamily);
+    font-weight: var(--typographyParagraphNormal1RegularFontWeight);
+    font-size: var(--typographyParagraphNormal1RegularFontSize);
+    letter-spacing: var(--typographyParagraphNormal1RegularLetterSpacing);
+    line-height: var(--typographyParagraphNormal1RegularLineHeight);
+  }
+  
+  .p-normal-1-me {
+      font-family: var(--typographyParagraphNormal1MediumFontFamily);
+      font-weight: var(--typographyParagraphNormal1MediumFontWeight);
+      font-size: var(--typographyParagraphNormal1MediumFontSize);
+      letter-spacing: var(--typographyParagraphNormal1MediumLetterSpacing);
+      line-height: var(--typographyParagraphNormal1MediumLineHeight);
+  }
+
+
+
+
+/* paragraph - small - 2 */
+
+.p-small-2-re {
+    font-family: var(--typographyParagraphSmall2RegularFontFamily);
+    font-weight: var(--typographyParagraphSmall2RegularFontWeight);
+    font-size: var(--typographyParagraphSmall2RegularFontSize);
+    letter-spacing: var(--typographyParagraphSmall2RegularLetterSpacing);
+    line-height: var(--typographyParagraphSmall2RegularLineHeight);
+  }
+  
+  .p-small-2-me {
+      font-family: var(--typographyParagraphSmall2MediumFontFamily);
+      font-weight: var(--typographyParagraphSmall2MediumFontWeight);
+      font-size: var(--typographyParagraphSmall2MediumFontSize);
+      letter-spacing: var(--typographyParagraphSmall2MediumLetterSpacing);
+      line-height: var(--typographyParagraphSmall2MediumLineHeight);
+  }
+
+
+
+
+/* paragraph - small - 1 */
+
+.p-small-1-re {
+    font-family: var(--typographyParagraphSmall1RegularFontFamily);
+    font-weight: var(--typographyParagraphSmall1RegularFontWeight);
+    font-size: var(--typographyParagraphSmall1RegularFontSize);
+    letter-spacing: var(--typographyParagraphSmall1RegularLetterSpacing);
+    line-height: var(--typographyParagraphSmall1RegularLineHeight);
+  }
+  
+  .p-small-1-me {
+      font-family: var(--typographyParagraphSmall1MediumFontFamily);
+      font-weight: var(--typographyParagraphSmall1MediumFontWeight);
+      font-size: var(--typographyParagraphSmall1MediumFontSize);
+      letter-spacing: var(--typographyParagraphSmall1MediumLetterSpacing);
+      line-height: var(--typographyParagraphSmall1MediumLineHeight);
+  }
+
+
+
+
+
+/* paragraph - extra small - 1 */
+
+.p-extrasmall-1-re {
+  font-family: var(--typographyParagraphExtraSmall1RegularFontFamily);
+  font-weight: var(--typographyParagraphExtraSmall1RegularFontWeight);
+  font-size: var(--typographyParagraphExtraSmall1RegularFontSize);
+  letter-spacing: var(--typographyParagraphExtraSmall1RegularLetterSpacing);
+  line-height: var(--typographyParagraphExtraSmall1RegularLineHeight);
+}
+
+.p-extrasmall-1-me {
+    font-family: var(--typographyParagraphExtraSmall1MediumFontFamily);
+    font-weight: var(--typographyParagraphExtraSmall1MediumFontWeight);
+    font-size: var(--typographyParagraphExtraSmall1MediumFontSize);
+    letter-spacing: var(--typographyParagraphExtraSmall1MediumLetterSpacing);
+    line-height: var(--typographyParagraphExtraSmall1MediumLineHeight);
+}
+  
+
+
+
+
+
+
+
+/* title */
+
+
+
+
+  /* title - extra large - 3 */
+
+  .t-extralarge-3-se {
+    font-family: var(--typographyTitleExtraLarge3SemiboldFontFamily);
+    font-weight: var(--typographyTitleExtraLarge3SemiboldFontWeight);
+    font-size: var(--typographyTitleExtraLarge3SemiboldFontSize);
+    letter-spacing: var(--typographyTitleExtraLarge3SemiboldLetterSpacing);
+    line-height: var(--typographyTitleExtraLarge3SemiboldLineHeight);
+  }
+
+
+
+/* title - extra large - 2 */
+
+  .t-extralarge-2-bo {
+    font-family: var(--typographyTitleExtraLarge2BoldFontFamily);
+    font-weight: var(--typographyTitleExtraLarge2BoldFontWeight);
+    font-size: var(--typographyTitleExtraLarge2BoldFontSize);
+    letter-spacing: var(--typographyTitleExtraLarge2BoldLetterSpacing);
+    line-height: var(--typographyTitleExtraLarge2BoldLineHeight);
+  }
+    
+    
+
+/* title - extra large - 1 */
+
+.t-extralarge-1-bo {
+    font-family: var(--typographyTitleExtraLarge1BoldFontFamily);
+    font-weight: var(--typographyTitleExtraLarge1BoldFontWeight);
+    font-size: var(--typographyTitleExtraLarge1BoldFontSize);
+    letter-spacing: var(--typographyTitleExtraLarge1BoldLetterSpacing);
+    line-height: var(--typographyTitleExtraLarge1BoldLineHeight);
+  }
+
+
+
+
+
+
+/* title - large - 5 */
+
+.t-large-5-bo {
+    font-family: var(--typographyTitleLarge5BoldFontFamily);
+    font-weight: var(--typographyTitleLarge5BoldFontWeight);
+    font-size: var(--typographyTitleLarge5BoldFontSize);
+    letter-spacing: var(--typographyTitleLarge5BoldLetterSpacing);
+    line-height: var(--typographyTitleLarge5BoldLineHeight);
+  }
+
+
+
+
+
+/* title - large - 4 */
+
+.t-large-4-se {
+    font-family: var(--typographyTitleLarge4SemiboldFontFamily);
+    font-weight: var(--typographyTitleLarge4SemiboldFontWeight);
+    font-size: var(--typographyTitleLarge4SemiboldFontSize);
+    letter-spacing: var(--typographyTitleLarge4SemiboldLetterSpacing);
+    line-height: var(--typographyTitleLarge4SemiboldLineHeight);
+  }
+
+.t-large-4-bo {
+    font-family: var(--typographyTitleLarge4BoldFontFamily);
+    font-weight: var(--typographyTitleLarge4BoldFontWeight);
+    font-size: var(--typographyTitleLarge4BoldFontSize);
+    letter-spacing: var(--typographyTitleLarge4BoldLetterSpacing);
+    line-height: var(--typographyTitleLarge4BoldLineHeight);
+  }
+
+
+
+
+
+/* title - large - 3 */
+
+.t-large-3-se {
+    font-family: var(--typographyTitleLarge3SemiboldFontFamily);
+    font-weight: var(--typographyTitleLarge3SemiboldFontWeight);
+    font-size: var(--typographyTitleLarge3SemiboldFontSize);
+    letter-spacing: var(--typographyTitleLarge3SemiboldLetterSpacing);
+    line-height: var(--typographyTitleLarge3SemiboldLineHeight);
+  }
+
+.t-large-3-bo {
+    font-family: var(--typographyTitleLarge3BoldFontFamily);
+    font-weight: var(--typographyTitleLarge3BoldFontWeight);
+    font-size: var(--typographyTitleLarge3BoldFontSize);
+    letter-spacing: var(--typographyTitleLarge3BoldLetterSpacing);
+    line-height: var(--typographyTitleLarge3BoldLineHeight);
+  }
+
+
+
+
+
+  /* title - large - 2 */
+
+.t-large-2-se {
+    font-family: var(--typographyTitleLarge2SemiboldFontFamily);
+    font-weight: var(--typographyTitleLarge2SemiboldFontWeight);
+    font-size: var(--typographyTitleLarge2SemiboldFontSize);
+    letter-spacing: var(--typographyTitleLarge2SemiboldLetterSpacing);
+    line-height: var(--typographyTitleLarge2SemiboldLineHeight);
+  }
+
+.t-large-2-bo {
+    font-family: var(--typographyTitleLarge2BoldFontFamily);
+    font-weight: var(--typographyTitleLarge2BoldFontWeight);
+    font-size: var(--typographyTitleLarge2BoldFontSize);
+    letter-spacing: var(--typographyTitleLarge2BoldLetterSpacing);
+    line-height: var(--typographyTitleLarge2BoldLineHeight);
+  }
+
+
+
+
+  /* title - large - 1 */
+
+  .t-large-1-se {
+    font-family: var(--typographyTitleLarge1SemiboldFontFamily);
+    font-weight: var(--typographyTitleLarge1SemiboldFontWeight);
+    font-size: var(--typographyTitleLarge1SemiboldFontSize);
+    letter-spacing: var(--typographyTitleLarge1SemiboldLetterSpacing);
+    line-height: var(--typographyTitleLarge1SemiboldLineHeight);
+  }
+
+.t-large-1-bo {
+    font-family: var(--typographyTitleLarge1BoldFontFamily);
+    font-weight: var(--typographyTitleLarge1BoldFontWeight);
+    font-size: var(--typographyTitleLarge1BoldFontSize);
+    letter-spacing: var(--typographyTitleLarge1BoldLetterSpacing);
+    line-height: var(--typographyTitleLarge1BoldLineHeight);
+  }
+
+
+
+
+
+/* title - normal - 3 */
+
+.t-normal-3-re {
+    font-family: var(--typographyTitleNormal3RegularFontFamily);
+    font-weight: var(--typographyTitleNormal3RegularFontWeight);
+    font-size: var(--typographyTitleNormal3RegularFontSize);
+    letter-spacing: var(--typographyTitleNormal3RegularLetterSpacing);
+    line-height: var(--typographyTitleNormal3RegularLineHeight);
+  }
+  
+  
+.t-normal-3-me {
+    font-family: var(--typographyTitleNormal3MediumFontFamily);
+    font-weight: var(--typographyTitleNormal3MediumFontWeight);
+    font-size: var(--typographyTitleNormal3MediumFontSize);
+    letter-spacing: var(--typographyTitleNormal3MediumLetterSpacing);
+    line-height: var(--typographyTitleNormal3MediumLineHeight);
+  }
+  
+  
+  .t-normal-3-se {
+    font-family: var(--typographyTitleNormal3SemiboldFontFamily);
+    font-weight: var(--typographyTitleNormal3SemiboldFontWeight);
+    font-size: var(--typographyTitleNormal3SemiboldFontSize);
+    letter-spacing: var(--typographyTitleNormal3SemiboldLetterSpacing);
+    line-height: var(--typographyTitleNormal3SemiboldLineHeight);
+  }
+
+    
+  .t-normal-3-bo {
+    font-family: var(--typographyTitleNormal3BoldFontFamily);
+    font-weight: var(--typographyTitleNormal3BoldFontWeight);
+    font-size: var(--typographyTitleNormal3BoldFontSize);
+    letter-spacing: var(--typographyTitleNormal3BoldLetterSpacing);
+    line-height: var(--typographyTitleNormal3BoldLineHeight);
+  }
+
+
+
+
+
+/* title - normal - 2 */
+
+.t-normal-2-re {
+    font-family: var(--typographyTitleNormal2RegularFontFamily);
+    font-weight: var(--typographyTitleNormal2RegularFontWeight);
+    font-size: var(--typographyTitleNormal2RegularFontSize);
+    letter-spacing: var(--typographyTitleNormal2RegularLetterSpacing);
+    line-height: var(--typographyTitleNormal2RegularLineHeight);
+  }
+  
+  
+.t-normal-2-me {
+    font-family: var(--typographyTitleNormal2MediumFontFamily);
+    font-weight: var(--typographyTitleNormal2MediumFontWeight);
+    font-size: var(--typographyTitleNormal2MediumFontSize);
+    letter-spacing: var(--typographyTitleNormal2MediumLetterSpacing);
+    line-height: var(--typographyTitleNormal2MediumLineHeight);
+  }
+  
+  
+  .t-normal-2-se {
+    font-family: var(--typographyTitleNormal2SemiboldFontFamily);
+    font-weight: var(--typographyTitleNormal2SemiboldFontWeight);
+    font-size: var(--typographyTitleNormal2SemiboldFontSize);
+    letter-spacing: var(--typographyTitleNormal2SemiboldLetterSpacing);
+    line-height: var(--typographyTitleNormal2SemiboldLineHeight);
+  }
+
+    
+  .t-normal-2-bo {
+    font-family: var(--typographyTitleNormal2BoldFontFamily);
+    font-weight: var(--typographyTitleNormal2BoldFontWeight);
+    font-size: var(--typographyTitleNormal2BoldFontSize);
+    letter-spacing: var(--typographyTitleNormal2BoldLetterSpacing);
+    line-height: var(--typographyTitleNormal2BoldLineHeight);
+  }
+
+
+
+
+/* title - normal - 1 */
+
+.t-normal-1-re {
+    font-family: var(--typographyTitleNormal1RegularFontFamily);
+    font-weight: var(--typographyTitleNormal1RegularFontWeight);
+    font-size: var(--typographyTitleNormal1RegularFontSize);
+    letter-spacing: var(--typographyTitleNormal1RegularLetterSpacing);
+    line-height: var(--typographyTitleNormal1RegularLineHeight);
+  }
+  
+  
+.t-normal-1-me {
+    font-family: var(--typographyTitleNormal1MediumFontFamily);
+    font-weight: var(--typographyTitleNormal1MediumFontWeight);
+    font-size: var(--typographyTitleNormal1MediumFontSize);
+    letter-spacing: var(--typographyTitleNormal1MediumLetterSpacing);
+    line-height: var(--typographyTitleNormal1MediumLineHeight);
+  }
+  
+  
+  .t-normal-1-se {
+    font-family: var(--typographyTitleNormal1SemiboldFontFamily);
+    font-weight: var(--typographyTitleNormal1SemiboldFontWeight);
+    font-size: var(--typographyTitleNormal1SemiboldFontSize);
+    letter-spacing: var(--typographyTitleNormal1SemiboldLetterSpacing);
+    line-height: var(--typographyTitleNormal1SemiboldLineHeight);
+  }
+
+    
+  .t-normal-1-bo {
+    font-family: var(--typographyTitleNormal1BoldFontFamily);
+    font-weight: var(--typographyTitleNormal1BoldFontWeight);
+    font-size: var(--typographyTitleNormal1BoldFontSize);
+    letter-spacing: var(--typographyTitleNormal1BoldLetterSpacing);
+    line-height: var(--typographyTitleNormal1BoldLineHeight);
+  }
+
+
+
+
+/* title - small - 2 */
+
+.t-small-2-re {
+    font-family: var(--typographyTitleSmall2RegularFontFamily);
+    font-weight: var(--typographyTitleSmall2RegularFontWeight);
+    font-size: var(--typographyTitleSmall2RegularFontSize);
+    letter-spacing: var(--typographyTitleSmall2RegularLetterSpacing);
+    line-height: var(--typographyTitleSmall2RegularLineHeight);
+  }
+  
+  
+.t-small-2-me {
+    font-family: var(--typographyTitleSmall2MediumFontFamily);
+    font-weight: var(--typographyTitleSmall2MediumFontWeight);
+    font-size: var(--typographyTitleSmall2MediumFontSize);
+    letter-spacing: var(--typographyTitleSmall2MediumLetterSpacing);
+    line-height: var(--typographyTitleSmall2MediumLineHeight);
+  }
+  
+  
+  .t-small-2-se {
+    font-family: var(--typographyTitleSmall2SemiboldFontFamily);
+    font-weight: var(--typographyTitleSmall2SemiboldFontWeight);
+    font-size: var(--typographyTitleSmall2SemiboldFontSize);
+    letter-spacing: var(--typographyTitleSmall2SemiboldLetterSpacing);
+    line-height: var(--typographyTitleSmall2SemiboldLineHeight);
+  }
+
+    
+  .t-small-2-bo {
+    font-family: var(--typographyTitleSmall2BoldFontFamily);
+    font-weight: var(--typographyTitleSmall2BoldFontWeight);
+    font-size: var(--typographyTitleSmall2BoldFontSize);
+    letter-spacing: var(--typographyTitleSmall2BoldLetterSpacing);
+    line-height: var(--typographyTitleSmall2BoldLineHeight);
+  }
+
+
+
+
+
+/* title - small - 1 */
+
+.t-small-1-re {
+    font-family: var(--typographyTitleSmall1RegularFontFamily);
+    font-weight: var(--typographyTitleSmall1RegularFontWeight);
+    font-size: var(--typographyTitleSmall1RegularFontSize);
+    letter-spacing: var(--typographyTitleSmall1RegularLetterSpacing);
+    line-height: var(--typographyTitleSmall1RegularLineHeight);
+  }
+  
+  
+.t-small-1-me {
+    font-family: var(--typographyTitleSmall1MediumFontFamily);
+    font-weight: var(--typographyTitleSmall1MediumFontWeight);
+    font-size: var(--typographyTitleSmall1MediumFontSize);
+    letter-spacing: var(--typographyTitleSmall1MediumLetterSpacing);
+    line-height: var(--typographyTitleSmall1MediumLineHeight);
+  }
+  
+  
+  .t-small-1-se {
+    font-family: var(--typographyTitleSmall1SemiboldFontFamily);
+    font-weight: var(--typographyTitleSmall1SemiboldFontWeight);
+    font-size: var(--typographyTitleSmall1SemiboldFontSize);
+    letter-spacing: var(--typographyTitleSmall1SemiboldLetterSpacing);
+    line-height: var(--typographyTitleSmall1SemiboldLineHeight);
+  }
+
+    
+  .t-small-1-bo {
+    font-family: var(--typographyTitleSmall1BoldFontFamily);
+    font-weight: var(--typographyTitleSmall1BoldFontWeight);
+    font-size: var(--typographyTitleSmall1BoldFontSize);
+    letter-spacing: var(--typographyTitleSmall1BoldLetterSpacing);
+    line-height: var(--typographyTitleSmall1BoldLineHeight);
+  }
+
+
+
+
+/* title - extra small - 1 */
+
+.t-extrasmall-1-bo {
+    font-family: var(--typographyTitleExtraSmall1BoldFontFamily);
+    font-weight: var(--typographyTitleExtraSmall1BoldFontWeight);
+    font-size: var(--typographyTitleExtraSmall1BoldFontSize);
+    letter-spacing: var(--typographyTitleExtraSmall1BoldLetterSpacing);
+    line-height: var(--typographyTitleExtraSmall1BoldLineHeight);
+  }
+  
+
+
+
+    
+
+
+
+
+
+  
+    
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* btn
+
+{style} - {size} - btn
+
+style = primary, tonal, ountline 이 있습니다.
+size = lg, md, sm 이 있을 수 있습니다. (현재는 md, sm만 존재)
+
+btn의 상태는 모두 3개 있습니다.
+기본 / hover / active / disabled 
+
+*/
+
+
+
+
+
+
+
+
+/* primary */
+
+/* primary - md - btn */
+
+
+.primary-md-btn {
+    padding: 12px 20px;
+    background-color:var(--colorsTorderRed500);
+    border-radius: 8px;
+    border-style: none;
+    color: white;
+}
+
+.primary-md-btn:hover {
+    background-color: var(--colorsTorderRed800);
+    transition: 0.3s;
+}
+
+.primary-md-btn:active {
+    background-color: var(--colorsTorderRed800);
+    transition: 0.3s;
+}
+
+
+.primary-md-btn:disabled {
+    background-color: var(--colorsTorderGray50);
+}
+
+
+
+
+
+
+/* tonal */
+
+/* tonal - md - btn */
+
+.tonal-md-btn {
+    padding: 12px 20px;
+    background-color:var(--colorsTorderGray50);
+    border-radius: 8px;
+    border-style: none;
+    color: var(--colorsTorderGray500);
+}
+
+.tonal-md-btn:hover {
+    background-color: var(--colorsTorderGray100);
+    transition: 0.3s;
+}
+
+.tonal-md-btn:active {
+    background-color: var(--colorsTorderGray100);
+    transition: 0.3s;
+}
+
+.tonal-md-btn:disabled {
+    background-color: var(--colorsTorderGray50);
+    color: white;
+}
+
+
+
+/* tonal - sm - btn */
+
+.tonal-sm-btn {
+    padding: 8px 16px;
+    background-color:var(--colorsTorderGray50);
+    border-radius: 8px;
+    border-style: none;
+    color: var(--colorsTorderGray500);
+}
+
+.tonal-sm-btn:hover {
+    background-color: var(--colorsTorderGray100);
+    transition: 0.3s;
+}
+
+.tonal-sm-btn:active {
+    background-color: var(--colorsTorderGray100);
+    transition: 0.3s;
+}
+
+.tonal-sm-btn:disabled {
+    background-color: var(--colorsTorderGray50);
+    color: white;
+}
+
+
+
+
+
+
+
+
+/* outline */
+
+/* tonal - sm - btn */
+
+.outline-sm-btn {
+    padding: 8px 16px;
+    background-color:var(--colorsWhite);
+    border-radius: 8px;
+    border: 1px solid var(--colorsTorderGray100);
+    color: var(--colorsTorderGray600);
+}
+
+.outline-sm-btn:hover {
+    background-color: var(--colorsTorderGray50);
+    transition: 0.3s;
+}
+
+.outline-sm-btn:active {
+    background-color: var(--colorsTorderGray50);
+    transition: 0.3s;
+}
+
+.outline-sm-btn:disabled {
+    color: var(--colorsTorderGray100);
+    background-color: var(--colorsWhite);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* dropdown box
+
+{purpose} - {usages} 
+
+purpose = date-picker 등 이 있습니다.
+usage = dropdown / btn 이 있을 수 있습니다. 
+
+[] disabled 제작 못함
+
+*/
+
+
+
+
+
+
+/* date - picker - dropdown */ 
+
+.date-picker-dropdown {
+    display: flex;
+    width: 102px;
+    height: 36px;
+    border-radius: 8px;
+    background: url("data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%2724%27 height=%2724%27 fill=%27none%27%3E%3Cpath fill=%27%23ADB4C3%27 fill-rule=%27evenodd%27 d=%27m5.204 11.296 1.591-1.591L12 14.909l5.204-5.205 1.591 1.591L12 18.091l-6.796-6.796Z%27 clip-rule=%27evenodd%27/%3E%3C/svg%3E%0A") no-repeat 94% 48%/14px auto;
+    background-color: var(--colorsTorderGray800);
+    border: 1px solid var(--colorsTorderGray500);
+    cursor: pointer;
+
+    &.select {
+        /* 셀렉트박스 스타일 초기화 */
+        -webkit-appearance: none;
+                appearance: none;
+        border: 0;
+        background-color: transparent;
+        
+        color: var(--colorsTorderGray100);
+        width: 100%;
+        height: 100%;
+        padding: 8px 16px;
+        box-sizing: border-box;
+    }
+}
+
+.date-picker-dropdown select {
+    /* 셀렉트박스 스타일 초기화 */
+    -webkit-appearance: none;
+            appearance: none;
+    border: 0;
+    background-color: transparent;
+    
+    color: var(--colorsTorderGray100);
+    width: 100%;
+    height: 100%;
+    padding: 8px 16px;
+    box-sizing: border-box;
+}
+
+.date-picker-dropdown select:focus {
+    outline: none;
+}
+
+
+.date-picker-dropdown:hover {
+    background-color: var(--colorsTorderGray700);
+}
+
+.date-picker-dropdown:focus {
+    background: url("data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 width=%2724%27 height=%2724%27 fill=%27none%27%3E%3Cpath fill=%27%23ADB4C3%27 fill-rule=%27evenodd%27 d=%27m5.204 15.5 1.591 1.591L12 11.886l5.204 5.205 1.591-1.591L12 8.704 5.204 15.5Z%27 clip-rule=%27evenodd%27/%3E%3C/svg%3E") no-repeat 92% 48%/14px auto;
+    background-color: var(--colorsTorderGray700);
+}
+
+
+
+
+
+
+
+/* date - picker - dropdown - box */ 
+
+
+/* dropdown - box, 배경 */
+
+.date-picker-dropdown-box__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 185px;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: var(--colorsTorderGray800);
+    border: 1px solid var(--colorsTorderGray700);
+    position: absolute;
+}
+
+
+
+/* dropdown - box - list item, 옵션 하나 */
+
+.date-picker-dropdown-box__list-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 8px 8px 8px 16px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: var(--colorsTorderGray100);
+    cursor: pointer;
+}
+
+.date-picker-dropdown-box__list-item__icon {
+    visibility: hidden;
+    width: 20px;
+    height: 20px;
+}
+
+.date-picker-dropdown-box__list-item:hover {
+    background-color: var(--colorsTorderGray700);
+    color: var(--colorsTorderGray50);
+}
+
+.date-picker-dropdown-box__list-item:active{
+    .date-picker-dropdown-box__list-item__icon {
+        visibility: visible;
+        width: 20px;
+        height: 20px;
+    }
+}
+
+
+
+/* dropdown - box - list item, 선택된 상태 */
+
+.pressed{
+    background-color: var(--colorsTorderGray700);
+    color: var(--colorsTorderGray50);
+    .date-picker-dropdown-box__list-item__icon{
+        visibility: visible;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* date - picker - calendar 기본 상태 */
+
+.date-picker-calendar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* width: 188px; */
+    height: 36px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: var(--colorsTorderGray100);
+    background-color: var(--colorsTorderGray800);
+    border: 1px solid var(--colorsTorderGray500);
+    cursor: pointer;
+    gap: 12px;
+}
+
+.date-picker-calendar__icon{
+    width: 16px;
+    height: 16px;
+}
+
+.date-picker-calendar:hover {
+    background-color: var(--colorsTorderGray700);
+    color: var(--colorsTorderGray50);
+}
+
+
+.date-picker-calendar:active {
+    background-color: var(--colorsTorderGray700);
+    color: var(--colorsTorderGray50);
+}
+
+
+
+
+
+
+
+/* date - picker - reset 버튼 */
+
+.date-picker-reset {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    background-color: var(--colorsTorderGray800);
+    border: 1px solid var(--colorsTorderGray500);
+}
+
+.date-picker-reset:hover {
+    background-color: var(--colorsTorderGray700);
+}
+
+
+
+
+
+
+
+
+/* 간격 떼려고 만든 겁니다 */
+
+.reset-btn{
+    margin-top: 20px;
+}
+
+/* 
+
+{style} - tab
+
+style = line, fill 이 있습니다.
+
+tab의 상태는 모두 3개 있습니다.
+기본 / hover / active / disabled
+
+disabled = inactive 상태입니다.
+inactive 상태 css는 코드로만 있고, a 태그로 구현이 되어있지 않습니다
+
+*/
+
+
+
+/* tabContainer은 안봐도 됩니다 */
+.tabContainer {
+    margin: 60px 0px;
+    
+}
+
+.tabContainer_title{
+    display: block;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+/* line - tab */
+
+.line-tab {
+    display: flex;
+    height: 48px;
+    gap: 16px;
+}
+
+.line-tab-item {
+    text-decoration: none;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    color: var(--colorsTorderGray600);
+    padding-bottom: 8px;
+    border-bottom: 3px solid transparent;
+    cursor: pointer;
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 125% */
+    letter-spacing: -0.48px;
+
+    &:hover {
+        color: var(--colorsBlue500);
+        border-bottom: 3px solid var(--colorsBlue500);
+        transition: 0.5s;
+    }
+
+    &.active {
+        color: var(--colorsBlue500);
+        border-bottom: 3px solid var(--colorsBlue500);
+        transition: 0.5s;
+    }
+
+    /* inactive 상태 */
+    &:disabled{
+        color: var(--colorsTorderGray100);
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+/* fill - tab */
+
+.fill-tab {
+    display: flex;
+    gap: 8px;
+}
+
+
+.fill-tab-item {
+    text-decoration: none;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 12px;
+    color: var(--colorsTorderGray400);
+    background-color: var(--colorsTorderGray30);
+    border-radius: 8px;
+
+    &:hover {
+        color: white;
+        background-color: var(--colorsBlue500);
+        transition: 0.3s;
+    }
+
+    &:active {
+        color: white;
+        background-color: var(--colorsBlue500);
+        transition: 0.3s;
+    }
+
+    /* inactive 상태 */
+    &:disabled{
+        color: white;
+        background-color: var(--colorsTorderGray100);
+    }
+
+} 
+
+
+
+
+
+
+/* notice
+
+error 화면과 popup 화면에서
+정보를 안내하기 위한 용도로 사용되는 공통 스타일입니다.
+
+이미지와 내용은 변경되더라도
+레이아웃 및 스타일은 공통으로 가져갑니다.
+
+*/
+
+
+
+.notice {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    width: 264px;
+}
+
+
+.notice_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.notice_text_title{
+    color: var(--colorsTorderGray400);
+}
+
+.notice_text_accent{
+    color: var(--colorsTorderGray800);
+}
+
+
+.notice_text_body{
+    color: var(--colorsTorderGray400);
+    text-align: center;
+    margin: 0px;
+}
+
+
+
+
+/* error
+
+에러 화면의 큰 구조입니다.
+
+*/
+
+
+.error-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100dvh;
+}
+
+.error {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+
+
+
+
+/*  poppup
+
+팝업화면에서 전체 구조입니다. 
+
+*/
+
+
+.popup-bg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100dvh;
+    background-color: var(--colorsTorderGray900);
+    opacity: 0.8;
+}
+
+
+.popup-wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    gap: 24px;
+    background-color: #fff;
+    padding: 36px 16px 24px 16px;
+    border-radius: 16px;
+}
+
+
+
+.popup-close{
+    /* button style reset */
+    background: inherit ;  
+    border:none; 
+    box-shadow:none; 
+    border-radius:0; 
+    padding:0; 
+    overflow:visible; 
+    cursor:pointer;
+
+    
+    position: absolute;
+    right: 16px;
+    top: 16px;
+    width: 18px;
+    height: 18px;
+}
+/* torder dashboard design system */
+
+
+
+
+
+
+body {
+    padding: 40px 40px;
+}
+
+
+
+
+/* buttons */
+
+.btnContainer span {
+  display: block;
+  margin-bottom: 16px;
+}
+
+.btnContainer {
+    margin-bottom: 40px;
+  }
+
+
+
+
+/* select box */
+
+.blackContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 64px 120px;
+    background-color: var(--colorsTorderGray900);
+}
+
+
+.blackContainer_title {
+    color: white;
+    margin-bottom: 20px;
+}
+
+
+
+
+/*# sourceMappingURL=stories-SecondaryButton-stories.c3daf4d4.chunk.css.map*/

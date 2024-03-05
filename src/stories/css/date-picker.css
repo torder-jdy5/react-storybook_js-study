@@ -1,0 +1,220 @@
+
+
+
+/* dropdown box
+
+{purpose} - {usages} 
+
+purpose = date-picker 등 이 있습니다.
+usage = dropdown / btn 이 있을 수 있습니다. 
+
+[] disabled 제작 못함
+
+*/
+
+
+
+
+
+
+/* date - picker - dropdown */ 
+
+.date-picker-dropdown {
+    display: flex;
+    width: 102px;
+    height: 36px;
+    border-radius: 8px;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='none'%3E%3Cpath fill='%23ADB4C3' fill-rule='evenodd' d='m5.204 11.296 1.591-1.591L12 14.909l5.204-5.205 1.591 1.591L12 18.091l-6.796-6.796Z' clip-rule='evenodd'/%3E%3C/svg%3E%0A") no-repeat 94% 48%/14px auto;
+    background-color: var(--colorsTorderGray800);
+    border: 1px solid var(--colorsTorderGray500);
+    cursor: pointer;
+
+    &.select {
+        /* 셀렉트박스 스타일 초기화 */
+        appearance: none;
+        border: 0;
+        background-color: transparent;
+        
+        color: var(--colorsTorderGray100);
+        width: 100%;
+        height: 100%;
+        padding: 8px 16px;
+        box-sizing: border-box;
+    }
+}
+
+.date-picker-dropdown select {
+    /* 셀렉트박스 스타일 초기화 */
+    appearance: none;
+    border: 0;
+    background-color: transparent;
+    
+    color: var(--colorsTorderGray100);
+    width: 100%;
+    height: 100%;
+    padding: 8px 16px;
+    box-sizing: border-box;
+}
+
+.date-picker-dropdown select:focus {
+    outline: none;
+}
+
+
+.date-picker-dropdown:hover {
+    background-color: var(--colorsTorderGray700);
+}
+
+.date-picker-dropdown:focus {
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' fill='none'%3E%3Cpath fill='%23ADB4C3' fill-rule='evenodd' d='m5.204 15.5 1.591 1.591L12 11.886l5.204 5.205 1.591-1.591L12 8.704 5.204 15.5Z' clip-rule='evenodd'/%3E%3C/svg%3E") no-repeat 92% 48%/14px auto;
+    background-color: var(--colorsTorderGray700);
+}
+
+
+
+
+
+
+
+/* date - picker - dropdown - box */ 
+
+
+/* dropdown - box, 배경 */
+
+.date-picker-dropdown-box__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 185px;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: var(--colorsTorderGray800);
+    border: 1px solid var(--colorsTorderGray700);
+    position: absolute;
+}
+
+
+
+/* dropdown - box - list item, 옵션 하나 */
+
+.date-picker-dropdown-box__list-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 8px 8px 8px 16px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: var(--colorsTorderGray100);
+    cursor: pointer;
+}
+
+.date-picker-dropdown-box__list-item__icon {
+    visibility: hidden;
+    width: 20px;
+    height: 20px;
+}
+
+.date-picker-dropdown-box__list-item:hover {
+    background-color: var(--colorsTorderGray700);
+    color: var(--colorsTorderGray50);
+}
+
+.date-picker-dropdown-box__list-item:active{
+    .date-picker-dropdown-box__list-item__icon {
+        visibility: visible;
+        width: 20px;
+        height: 20px;
+    }
+}
+
+
+
+/* dropdown - box - list item, 선택된 상태 */
+
+.pressed{
+    background-color: var(--colorsTorderGray700);
+    color: var(--colorsTorderGray50);
+    .date-picker-dropdown-box__list-item__icon{
+        visibility: visible;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* date - picker - calendar 기본 상태 */
+
+.date-picker-calendar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* width: 188px; */
+    height: 36px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: var(--colorsTorderGray100);
+    background-color: var(--colorsTorderGray800);
+    border: 1px solid var(--colorsTorderGray500);
+    cursor: pointer;
+    gap: 12px;
+}
+
+.date-picker-calendar__icon{
+    width: 16px;
+    height: 16px;
+}
+
+.date-picker-calendar:hover {
+    background-color: var(--colorsTorderGray700);
+    color: var(--colorsTorderGray50);
+}
+
+
+.date-picker-calendar:active {
+    background-color: var(--colorsTorderGray700);
+    color: var(--colorsTorderGray50);
+}
+
+
+
+
+
+
+
+/* date - picker - reset 버튼 */
+
+.date-picker-reset {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    background-color: var(--colorsTorderGray800);
+    border: 1px solid var(--colorsTorderGray500);
+}
+
+.date-picker-reset:hover {
+    background-color: var(--colorsTorderGray700);
+}
+
+
+
+
+
+
+
+
+/* 간격 떼려고 만든 겁니다 */
+
+.reset-btn{
+    margin-top: 20px;
+}

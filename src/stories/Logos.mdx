@@ -1,0 +1,68 @@
+import { Meta, Unstyled } from "@storybook/blocks";
+
+import Logo from "./assets/logo.svg";
+
+<Meta title="Design System/Logos" />
+
+<div className="subheading">
+  <Unstyled>
+    <p className="title">Brand logo</p>
+  </Unstyled>
+</div>
+
+<div className="box">
+  <Unstyled>
+    <p className="subtitle">CI</p>
+  </Unstyled>
+</div>
+
+<div className="frame_147">
+  <img src={Logo} alt="t'order logo" />
+</div>
+
+<style>
+{`
+  .subheading {
+    display: flex;
+    padding: 24px;
+    align-items: flex-end;
+    gap: var(--spacing-spacing-2, 8px);
+    align-self: stretch;
+  }
+  .title {
+    color: #333;
+    font-family: 'Pretendard';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px; /* 133.333% */
+    letter-spacing: -0.48px;
+    text-transform: uppercase;
+  }
+  .subtitle {
+    color: #333;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px; /* 250% */
+    letter-spacing: -0.32px;
+  }
+  .frame_147 {
+    display: flex;
+    padding: 84px 64px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+    background: var(--torder-gray-100, #CCD2DD);
+  }
+  .box {
+    display: flex;
+    padding: 0px 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+`}
+</style>
